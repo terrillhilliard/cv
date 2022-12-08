@@ -60,6 +60,9 @@ a {
   text-decoration:none;
 }
 
+.skills {
+  padding-bottom: 5%;
+}
 
 .money {
   font-weight: normal;
@@ -74,6 +77,7 @@ a {
   left: 125px;
   text-align: left;
   line-height: 2;
+  padding-bottom: 0.5%;
 }
 
 .cherry {
@@ -89,6 +93,7 @@ a {
   right: 125px;
   text-align: right;
   line-height: 2;
+  padding-bottom: 2.5%
 }
 
 .contact {
@@ -132,6 +137,11 @@ a {
   border-radius: 50%;
   position: relative;
   top: 20px;
+}
+
+.experience {
+  text-align: inherit;
+  text-decoration-line: underline;
 }
 
 .top-container {
@@ -190,12 +200,50 @@ a {
 }
 
 
-.link {
-  color: MidnightBlue;
-  font-weight: bold;
+.links {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .bold {
   color: MidnightBlue;
   font-weight: bold;
+}
+
+
+@media (max-width: 1020px) {
+
+   body {
+     text-align: center;
+   }
+
+
+  .top-cloud {
+    visibility: hidden;
+  }
+
+  .bottom-cloud {
+    visibility: hidden;
+  }
+
+  .programming {
+    visibility: hidden;
+  }
+
+  .web-programming {
+    visibility: hidden;
+  }
+
+  .skill-row {
+    text-align: center;
+    position: relative;
+    left: auto;
+  }
+
+  .skeet-row {
+    text-align: center;
+    position: relative;
+    right: auto;
+  }
+
 }
