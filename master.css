@@ -246,9 +246,15 @@ a {
     right: auto;
   }
 
-  .mountain {
-    position: static;
-    left: auto;
-  }
 
+}
+
+@media (max-width: 600px) {
+
+  .mountain {
+    width: 75%;
+    position: relative;
+    padding-top: 15%;
+
+  }
 }
