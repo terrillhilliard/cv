@@ -217,6 +217,9 @@ a {
      text-align: center;
    }
 
+  .cherry {
+    text-align: center;
+  }
 
   .top-cloud {
     visibility: hidden;
@@ -255,6 +258,9 @@ a {
     width: 75%;
     position: relative;
     padding-top: 15%;
+  }
 
+  .cherry {
+    text-align: center;
   }
 }
